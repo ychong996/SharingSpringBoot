@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ychong.service.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.ychong.dao.UserDto">
+        <result column="uid" property="uid"/>
+        <result column="account" property="account"/>
+        <result column="password" property="password"/>
+        <result column="ftp_ip" property="ftpIp"/>
+        <result column="ftp_port" property="ftpPort"/>
+    </resultMap>
+    <insert id="insert" useGeneratedKeys="true" keyProperty="uid">
+    insert into fs_user(account,password,ftp_ip,ftp_port)values(#{account},#{password},#{ftpIp},#{ftpPort})
+   </insert>
+    <delete id="deleteByPrimaryKey">
+    delete from fs_user where uid = #{uid}
+    </delete>
+    <update id="updateByPrimaryKey">
+    update fs_user set account =#{account},password=#{password},ftp_ip=#{ftpIp},ftp_port=#{ftpPort} where uid=#{uid}
+    </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select * from fs_user where uid = #{uid}
+    </select>
+    <select id="selectByAccount" resultMap="BaseResultMap">
+        select * from fs_user where account =#{account}
+    </select>
+    <select id="selectAllUserDto" resultMap="BaseResultMap">
+    select * from fs_user
+    </select>
+
+    <select id="selectByAccountAndPwd" resultMap="BaseResultMap">
+        select * from fs_user where account = #{account} and password = #{password}
+    </select>
+</mapper>

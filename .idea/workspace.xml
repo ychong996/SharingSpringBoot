@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ed34e9a-f23c-4629-9cb0-49077ed277ce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m -Dmaven.wagon.http.ssl.insecure-true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dwQlcsKApmc4byz9s6nY8ACBI2" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ychong\java\LanFileSharingSpringBoot\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppDelegate" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LanFileSharingSpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ychong.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ychong.AppDelegate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppDelegate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ed34e9a-f23c-4629-9cb0-49077ed277ce" name="Default Changelist" comment="" />
+      <created>1593333827610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593333827610</updated>
+      <workItem from="1593333831249" duration="6375000" />
+      <workItem from="1593395294304" duration="3755000" />
+      <workItem from="1593480170606" duration="13021000" />
+      <workItem from="1593583380327" duration="2949000" />
+      <workItem from="1593593248580" duration="595000" />
+      <workItem from="1593654439279" duration="271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="972" y="182" key="#Project_Structure" timestamp="1593337098887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="972" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1593337098887" />
+    <state x="1041" y="198" key="#SQL_Dialects" timestamp="1593480884427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1041" y="198" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1593480884427" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593486176397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593486176397" />
+    <state x="1143" y="278" key="#com.intellij.ide.util.MemberChooser" timestamp="1593592785382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1143" y="278" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593592785382" />
+    <state x="1229" y="294" key="FileChooserDialogImpl" timestamp="1593480881398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1229" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593480881398" />
+    <state width="892" height="271" key="GridCell.Tab.0.bottom" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.0.center" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.0.left" timestamp="1593593044528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044528" />
+    <state width="892" height="271" key="GridCell.Tab.0.right" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.1.bottom" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.1.center" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.1.left" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="892" height="271" key="GridCell.Tab.1.right" timestamp="1593593044529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="892" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593593044529" />
+    <state width="1877" height="95" key="GridCell.Tab.2.bottom" timestamp="1593513073066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="95" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593513073066" />
+    <state width="1877" height="95" key="GridCell.Tab.2.center" timestamp="1593513073066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="95" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593513073066" />
+    <state width="1877" height="95" key="GridCell.Tab.2.left" timestamp="1593513073066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="95" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593513073066" />
+    <state width="1877" height="95" key="GridCell.Tab.2.right" timestamp="1593513073066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="95" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593513073066" />
+    <state x="622" y="247" key="Maven.ArtifactSearchDialog" timestamp="1593339983887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="247" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593339983887" />
+    <state x="821" y="88" key="SettingsEditor" timestamp="1593485315139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="88" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593485315139" />
+    <state x="669" y="236" key="new project wizard" timestamp="1593485437115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="236" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593485437115" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ychong/service/UserServiceImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
