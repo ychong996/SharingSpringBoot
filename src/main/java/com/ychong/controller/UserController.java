@@ -1,5 +1,6 @@
 package com.ychong.controller;
 
+import com.ychong.dao.CommonResult;
 import com.ychong.dao.UserDto;
 import com.ychong.service.UserService;
 import com.ychong.service.UserServiceImpl;
@@ -14,12 +15,17 @@ public class UserController {
     private UserService userService;
 
     @PostMapping(value = "/login")
-    public String login(@RequestBody UserDto userDto){
+    public CommonResult login(@RequestBody UserDto userDto){
        UserDto ud  = userService.selectByAccountAndPwd(userDto.getAccount(),userDto.getPassword());
         if (ud!=null){
-            return "登陆成功";
+            CommonResult<UserDto> commonResult = new CommonResult<UserDto>(ud);
+            commonResult.setSuccess(true);
+            return commonResult;
         }
-        return "登陆失败";
+        CommonResult<Object> commonResult = new CommonResult<Object>(null);
+        commonResult.setSuccess(false);
+        commonResult.setErrorMsg("暂无该用户");
+        return commonResult;
     }
 
     @GetMapping(value = "/getUserInfo")
@@ -31,7 +37,7 @@ public class UserController {
     public String updateUserInfo(@RequestBody UserDto userDto){
         UserDto ud =  userService.selectByUserAccount(userDto.getAccount());
         if (ud!=null){
-            userDto.setUid(ud.getUid());
+            userDto.setId(ud.getId());
             int index = userService.updateByUserDtoId(userDto);
             return "修改行数 "+index;
         }
@@ -41,7 +47,7 @@ public class UserController {
     public String deleteUser(@RequestBody UserDto userDto){
         UserDto ud = userService.selectByUserAccount(userDto.getAccount());
         if (ud!=null){
-            int index = userService.deleteByUserDtoId(ud.getUid());
+            int index = userService.deleteByUserDtoId(ud.getId());
             return "删除成功 "+index;
         }
         return "没有此用户";

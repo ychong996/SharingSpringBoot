@@ -4,18 +4,33 @@ import lombok.Data;
 
 @Data
 public class UserDto {
-    private int uid;
+    private int id;
     private String account;
     private String password;
+    private String ftpAccount;
+    private String ftpPassword;
     private String ftpIp;
     private int ftpPort;
 
-    public int getUid() {
-        return uid;
+    @Override
+    public String toString() {
+        return "UserDto{" +
+                "uId=" + id +
+                ", account='" + account + '\'' +
+                ", password='" + password + '\'' +
+                ", ftpAccount='" + ftpAccount + '\'' +
+                ", ftpPassword='" + ftpPassword + '\'' +
+                ", ftpIp='" + ftpIp + '\'' +
+                ", ftpPort=" + ftpPort +
+                '}';
     }
 
-    public void setUid(int uid) {
-        this.uid = uid;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getAccount() {
@@ -34,6 +49,22 @@ public class UserDto {
         this.password = password;
     }
 
+    public String getFtpAccount() {
+        return ftpAccount;
+    }
+
+    public void setFtpAccount(String ftpAccount) {
+        this.ftpAccount = ftpAccount;
+    }
+
+    public String getFtpPassword() {
+        return ftpPassword;
+    }
+
+    public void setFtpPassword(String ftpPassword) {
+        this.ftpPassword = ftpPassword;
+    }
+
     public String getFtpIp() {
         return ftpIp;
     }
@@ -48,16 +79,5 @@ public class UserDto {
 
     public void setFtpPort(int ftpPort) {
         this.ftpPort = ftpPort;
-    }
-
-    @Override
-    public String toString() {
-        return "UserDto{" +
-                "uid=" + uid +
-                ", account='" + account + '\'' +
-                ", password='" + password + '\'' +
-                ", ftpIp='" + ftpIp + '\'' +
-                ", ftpPort=" + ftpPort +
-                '}';
     }
 }
